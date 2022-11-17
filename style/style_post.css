@@ -1,0 +1,36 @@
+#container-artigo {
+    margin-top: 30px;
+    background-color: white;
+}
+
+/*CONTAINER POST*/
+
+#container-artigo #container-post {
+    border: 1px solid green;
+    width: 60%;
+    float: left;
+}
+
+#container-artigo #container-post img {
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 5%;
+}
+
+#container-artigo #container-post p {
+    text-align: justify;
+    font-size: 0.9em;
+    text-indent: 20px;
+    padding: 0 15px;
+}
+
+#container-artigo #container-post h2 {
+    text-align: justify;
+    padding: 0 15px;
+}
+
+#container-artigo #container-navegacao {
+    border: 1px solid blue;
+    width: 35%;
+    float: right;
+}
