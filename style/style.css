@@ -97,6 +97,10 @@ a:link {
     box-shadow: 0.5px 0.5px 2px black;
 }
 
+#container-principal #container-conteudos .postagem:hover {
+    opacity: 0.8;
+}
+
 #container-principal #container-conteudos .postagem a.postagem-quadro {
     text-align: justify;
 }
