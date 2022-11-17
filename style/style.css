@@ -1,0 +1,122 @@
+/*GENÉRICOS*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF6FB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+#clear {
+    clear: both;
+}
+
+/*CONTAINER PRINCIPAL*/
+
+#container-principal {
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+/*CONTAINER LOGO*/
+
+#container-principal #container-logo {
+    text-align: center;
+}
+
+#container-principal #container-logo img {
+    width: 180px;
+    padding: 0;
+    margin: -10px;
+}
+
+/*CONTAINER MENU*/
+
+#container-principal #container-menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container-principal #container-menu a:link {
+    color: #551613;
+    background-color: #f7c2db;
+    padding: 10px 25px;
+    margin: 6px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.7em;
+}
+
+#container-principal #container-menu a:visited {
+    color: #551613;
+}
+
+#container-principal #container-menu a:hover {
+    color: #f7c2db;
+    background-color: #551613;
+}
+
+/*CONTAINER CONTEUDOS*/
+
+#container-principal #container-conteudos {
+    font-size: 0.8em;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#container-principal #container-conteudos h3 {
+    text-align: left;
+}
+
+#container-principal #container-conteudos img {
+    width: 40%;
+    border-radius: 6px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+/*CONTAINER CONTEUDOS - POSTAGEM*/
+
+#container-principal #container-conteudos .postagem {
+    width: 30%;
+    padding: 10px;
+    background-color: #f8e5d5;
+    border-radius: 10px;
+    text-align: right;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0.5px 0.5px 2px black;
+}
+
+#container-principal #container-conteudos .postagem a.postagem-quadro {
+    text-align: justify;
+}
+
+#container-principal #container-conteudos .postagem a:link.botao-post {
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 5px; 
+    border-radius: 3px;
+    background-color: #ff9dcb;
+    color: #551613;
+}
+
+#container-principal #container-conteudos .postagem a:hover.botao-post {
+    background-color: #551613;
+    color: #f7c2db;
+}
+
+#container-principal #rodape p {
+    text-align: center;
+    color: #551613;
+    font-size: 0.8em;
+}
