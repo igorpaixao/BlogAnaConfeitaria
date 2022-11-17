@@ -1,12 +1,14 @@
+/*CONTAINER ARTIGO*/
+
 #container-artigo {
     margin-top: 30px;
     background-color: white;
+    border-radius: 10px;
 }
 
 /*CONTAINER POST*/
 
 #container-artigo #container-post {
-    border: 1px solid green;
     width: 60%;
     float: left;
 }
@@ -27,10 +29,50 @@
 #container-artigo #container-post h2 {
     text-align: justify;
     padding: 0 15px;
+    color: #551613;
+    text-transform: uppercase;
 }
 
+/*CONTAINER NAVEGACAO*/
+
 #container-artigo #container-navegacao {
-    border: 1px solid blue;
     width: 35%;
     float: right;
+    padding: 8px;
+}
+
+#container-artigo #container-navegacao h3 {
+    color: #551613;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#container-artigo #container-navegacao-pesquisa input[type="text"] {
+    width: 90%;
+    height: 40px;
+    border: none;
+    border: 1px solid #F7C2B5;
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+#container-artigo #container-navegacao-categorias a:link, #container-artigo #container-navegacao-categorias a:visited {
+    color: #DF468F;
+    text-transform: none;
+    font-size: 0.95em;
+}
+
+#container-artigo #container-navegacao-categorias a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+/*CONTAINER PUBLICIDADE*/
+
+#container-artigo #container-navegacao-publicidade {
+    text-align: center;
+}
+
+#container-artigo #container-navegacao-publicidade h3 {
+    text-align: left;
 }
